@@ -17,7 +17,7 @@ class ApplicationController < Sinatra::Base
   end
 
 post '/articles' do
-   article = Article.new({title: params[:article.last.title], content: params[:content]})
+   article = Article.new({title: params[:title], content: params[:content]})
    article.save
 
    redirect to '/articles'
