@@ -1,0 +1,7 @@
+CRUD 
+
+create - Get requedst to render a form 
+POST action to submit the form 
+read - Get request 
+update - PATCH request << POST action 
+delete - DELETE 
